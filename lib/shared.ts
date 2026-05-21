@@ -1,11 +1,11 @@
-export const appName = 'My App';
+export const appName = 'Flyono Base';
 export const docsRoute = '/docs';
 export const docsImageRoute = '/og/docs';
 export const docsContentRoute = '/llms.mdx/docs';
 
-// fill this with your actual GitHub info, for example:
+// 在此处填写你的真实GitHub信息，例如：
 export const gitConfig = {
-  user: 'fuma-nama',
+  user: 'Flyono Base',
   repo: 'fumadocs',
   branch: 'main',
 };
