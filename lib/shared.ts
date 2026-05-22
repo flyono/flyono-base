@@ -1,5 +1,8 @@
 export const appName = 'Flyono Base';
+
 export const docsRoute = '/docs';
+export const blogsRoute = '/blogs';
+
 export const docsImageRoute = '/og/docs';
 export const docsContentRoute = '/llms.mdx/docs';
 

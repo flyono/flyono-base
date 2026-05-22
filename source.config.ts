@@ -16,6 +16,19 @@ export const docs = defineDocs({
   },
 });
 
+export const blogs = defineDocs({
+  dir: 'content/blogs',
+  docs: {
+    schema: pageSchema,
+    postprocess: {
+      includeProcessedMarkdown: true,
+    },
+  },
+  meta: {
+    schema: metaSchema,
+  },
+});
+
 export default defineConfig({
   mdxOptions: {
     // MDX options

@@ -10,7 +10,7 @@ export default function Layout({ children }: LayoutProps<'/'>) {
         {
           icon: <BookIcon />,
           text: 'Blog',
-          url: '/blog',
+          url: '/blogs',
           secondary: false,
         },
       ]}
