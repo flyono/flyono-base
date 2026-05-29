@@ -7,7 +7,7 @@ export function baseOptions(): BaseLayoutProps {
       title: (
         <div className="flex items-center gap-2">
           <img
-            src="/avatar.png"
+            src="/xiaohei.png"
             alt="avatar"
             width="32"
             height="32"
