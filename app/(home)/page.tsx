@@ -36,7 +36,7 @@ export default function HomePage() {
               Hey, 欢迎来到 Flyono 的个人基地！
             </h1>
             <p className="text-stone-500 dark:text-stone-400 text-base leading-relaxed max-w-xs mx-auto">
-              Developer &amp; open source enthusiast. Building tools for the web, writing about what I learn.
+              游戏开发者 &amp; 开源爱好者。捣鼓点小工具，写写踩坑笔记。
             </p>
           </div>
         </section>
@@ -53,7 +53,7 @@ export default function HomePage() {
           style={{ animationDelay: '250ms' }}
         >
           <h2 className="font-serif text-lg text-stone-800 dark:text-stone-200 text-center">
-            Recent Writing
+            近期的文章
           </h2>
           <ul className="space-y-0.5">
             {recentPosts.map((post) => (
@@ -80,7 +80,7 @@ export default function HomePage() {
           style={{ animationDelay: '350ms' }}
         >
           <h2 className="font-serif text-lg text-stone-800 dark:text-stone-200 text-center">
-            Toolbox
+            工具箱
           </h2>
           <div className="flex flex-wrap justify-center gap-2">
             {techStack.map((tech) => (
